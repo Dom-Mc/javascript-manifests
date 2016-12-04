@@ -25,7 +25,7 @@ One last thing to remember: when you require something in your manifest file, th
 
 Now that we have our manifest file, we need to include it in our application. The only thing we need to do is use the `javascript_include_tag` in our application layout file. This is just a Rails helper that generates a script tag instructing the browser to load that JS file.
 
-**File: app/views/layouts/application.html.slim**
+**File: app/views/layouts/application.html.erb**
 ```erb
 <%= javascript_include_tag "application" %>
 ```
@@ -48,3 +48,5 @@ In production mode, all the assets will be combined into a single file.
 - http://guides.rubyonrails.org/asset_pipeline.html
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/javascript-manifests' title='JavaScript Manifests'>JavaScript Manifests</a> on Learn.co and start learning to code for free.</p>
+
+<p class='util--hide'>View <a href='https://learn.co/lessons/javascript-manifests'>Javascript Manifests</a> on Learn.co and start learning to code for free.</p>
